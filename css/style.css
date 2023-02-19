@@ -87,6 +87,11 @@ button {
   color: #ffffff;
 }
 
+.dl-roomorder-btn:hover, .dl-roomorder-btn:focus {
+background: #F3C653;
+color: #000000;
+}
+
 .dl-back-link {
   font-family: "Montserrat";
   font-style: normal;
