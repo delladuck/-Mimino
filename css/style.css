@@ -102,14 +102,22 @@ color: #000000;
   color: #c79002;
 }
 
+.dl-back-link:hover, .dl-back-link:hover {
+color: #F3C653;
+}
+
 .dl-back-link::after {
   content: "";
   display: inline-block;
   margin-left: 13px;
   background-image: url(../img/gold-arrow.svg);
-  color: #c79002;
+  fill: #c79002;
   width: 23px;
   height: 13px;
+}
+
+.dl-back-link:hover::after, .dl-back-link:focus::after {
+ fill: #F3C653;
 }
 
 .dl-maintext {
