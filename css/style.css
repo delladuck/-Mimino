@@ -87,9 +87,10 @@ button {
   color: #ffffff;
 }
 
-.dl-roomorder-btn:hover, .dl-roomorder-btn:focus {
-background: #F3C653;
-color: #000000;
+.dl-roomorder-btn:hover,
+.dl-roomorder-btn:focus {
+  background: #f3c653;
+  color: #000000;
 }
 
 .dl-back-link {
@@ -102,8 +103,9 @@ color: #000000;
   color: #c79002;
 }
 
-.dl-back-link:hover, .dl-back-link:hover {
-color: #F3C653;
+.dl-back-link:hover,
+.dl-back-link:hover {
+  color: #f3c653;
 }
 
 .dl-back-link::after {
@@ -116,8 +118,9 @@ color: #F3C653;
   height: 13px;
 }
 
-.dl-back-link:hover::after, .dl-back-link:focus::after {
- fill: #F3C653;
+.dl-back-link:hover::after,
+.dl-back-link:focus::after {
+  fill: #f3c653;
 }
 
 .dl-maintext {
@@ -213,9 +216,9 @@ color: #F3C653;
     padding-right: px;
   }
 
-.dl-sec-heaher {
-  margin-top: 42px;
-}
+  .dl-sec-heaher {
+    margin-top: 42px;
+  }
 
   .dl-comfort {
     margin-left: 0;
