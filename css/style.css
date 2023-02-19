@@ -1,0 +1,236 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0.014em;
+  color: #7a7a7a;
+  background-color: #fffdee;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ol,
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.dl-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dl-sec-heaher {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.dl-thirdheader {
+  margin-top: 32px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.15;
+  color: #000000;
+}
+
+.dl-order-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.dl-roomorder-btn {
+  margin-top: 32px;
+  margin-bottom: 20px;
+  width: 384px;
+  height: 64px;
+  background: #000000;
+  border: 1px solid #f3c653;
+  border-radius: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.dl-back-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #c79002;
+}
+
+.dl-back-link::after {
+  content: "";
+  margin-left: 13px;
+  background-image: url(../img/gold-arrow.svg);
+  color: #c79002;
+  width: 23px;
+  height: 13px;
+}
+
+.dl-maintext {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.22;
+}
+
+/*Double lux Mobile*/
+@media screen and (max-width: 1023px) {
+  .container {
+    max-width: 414px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .doublelux {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dl-maintext {
+    max-width: 384px;
+  }
+
+  .dl-roomorder-btn,
+  .dl-back-link {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dl-back-link {
+    margin-bottom: 32px;
+  }
+}
+
+/*Double lux Tablet*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .dl-comfort-text {
+    max-width: 757px;
+  }
+
+  .dl-maintext {
+    width: 400px;
+  }
+
+  .dl-boxes {
+    display: flex;
+    gap: 80px;
+  }
+
+  .dl-order-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .dl-roomorder-btn {
+    margin-top: 40px;
+    margin-bottom: 32px;
+    width: 434px;
+    height: 64px;
+    line-height: 1.45;
+  }
+
+  .dl-back-link {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+/*Double lux Desktop*/
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1110px;
+    padding-left: px;
+    padding-right: px;
+  }
+
+  .dl-comfort {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .dl-comfort-text {
+    max-width: 757px;
+  }
+
+  .dl-maintext {
+    width: 400px;
+  }
+
+  .dl-maintext {
+    width: 400px;
+  }
+
+  .dl-boxes {
+    display: flex;
+    gap: 159px;
+  }
+
+  .dl-order-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 562px;
+    justify-content: center;
+  }
+
+  .dl-roomorder-btn {
+    margin-top: 40px;
+    margin-bottom: 32px;
+    width: 434px;
+    height: 64px;
+    line-height: 1.22;
+  }
+
+  .dl-back-link {
+    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
