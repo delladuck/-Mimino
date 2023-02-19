@@ -99,6 +99,7 @@ button {
 
 .dl-back-link::after {
   content: "";
+  display: inline-block;
   margin-left: 13px;
   background-image: url(../img/gold-arrow.svg);
   color: #c79002;
@@ -126,6 +127,10 @@ button {
     flex-direction: column;
   }
 
+  .dl-sec-heaher {
+    margin-top: 32px;
+  }
+
   .dl-maintext {
     max-width: 384px;
   }
@@ -147,6 +152,10 @@ button {
     width: 1024px;
     padding-left: 47px;
     padding-right: 47px;
+  }
+
+  .dl-sec-heaher {
+    margin-top: 50px;
   }
 
   .dl-comfort-text {
@@ -190,6 +199,10 @@ button {
     padding-left: px;
     padding-right: px;
   }
+
+.dl-sec-heaher {
+  margin-top: 42px;
+}
 
   .dl-comfort {
     margin-left: 0;
